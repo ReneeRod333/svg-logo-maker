@@ -12,7 +12,7 @@ Node.js command-line application that takes in user input to generate a logo and
   To run the application, execute the command `node index.js`.
 
   ## <a id="Link"></a>Deployed Application URL
-  [Walkthrough Video](./assets/SVG_recording.mov)
+  [Walkthrough Video](./assets/svg_recording.mov)
 
   ## <a id="Screenshot"></a>Screenshot
   <img src="./assets/SVG_logo_example.png" width="400" height="400">
