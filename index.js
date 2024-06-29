@@ -66,6 +66,8 @@ async function init() {
         enteredShape = new Triangle(enteredShapeColor, enteredText, enteredTextColor);
     }
 
+    // enteredShape.setColor(enteredShapeColor);
+
     svgString = enteredShape.render();
 
     console.log("Generated logo.svg");
