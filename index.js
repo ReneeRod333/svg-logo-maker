@@ -30,7 +30,8 @@ const questions = [
 
 // Function to write data to file
 function writeToFile(fileName, data) {
-    const file = fs.writeFileSync(path.join(process.cwd(), fileName), data);
+    const filePath = `${process.cwd()}/examples`;
+    const file = fs.writeFileSync(path.join(filePath, fileName), data);
     return file;
 }
 
